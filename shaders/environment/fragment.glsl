@@ -5,8 +5,9 @@ varying vec3 lightPosition;
 
 const float bias = 0.001;
 
-const vec3 underwaterColor = vec3(0.4, 0.9, 1.0);
+const vec3 underwaterColor = vec3(0.4, 0.6, 1.5);
 
+// vec3(0.4, 0.9, 1.0);
 const vec2 resolution = vec2(1024.);
 
 float blur(sampler2D image, vec2 uv, vec2 resolution, vec2 direction) {

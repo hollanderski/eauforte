@@ -599,7 +599,9 @@ const loaded = [
 ];
 
 Promise.all(loaded).then(() => {
-  const envGeometries = [floorGeometry, shark, rock1, rock2, plant];
+  //const envGeometries = [floorGeometry, shark, rock1, rock2, plant];
+
+  const envGeometries = [floorGeometry];
 
   environmentMap.setGeometries(envGeometries);
   environment.setGeometries(envGeometries);
